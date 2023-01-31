@@ -15,6 +15,10 @@ exponenciacao = 2 ** 10
 print('Exponenciação ', exponenciacao)
 
 modulo = 55 % 2 # faz a divisão e retorna a sobra, se não houver retorna 0
-print("Módulo ", modulo) 
+print("Módulo ", modulo) # bom pra checar se números são par ou ímpar vendo a sobra, ou primos, ou divisivel por algum número
+
+
+
+
 
 
