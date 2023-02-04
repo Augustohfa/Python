@@ -12,7 +12,7 @@ else :
 print('Fora do if')
 
 
-condicao1 = False
+condicao1 = True
 condicao2 = False
 condicao3 = False
 condicao4 = False
@@ -27,3 +27,5 @@ if condicao2:
 else:
     ('Nenhuma condição foi satisfeita')
 # Exemplo da aula, porém seria melhor usar elif 
+
+#Nessa aula foi mostrado e ensinado a usar o debugger
