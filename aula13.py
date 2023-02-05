@@ -15,11 +15,11 @@
 # elif entrada == 'S':
 #     print('Você está saindo')
 
- # Avaliação de curto circuito - Para de checar no primeiro False
+#  Avaliação de curto circuito - Para de checar no primeiro False
 True and True and False and True and True and True
-print(bool(0)) - #False
-print(bool(0.0)) - #False
-print(bool(None)) - #False
-print(bool(False)) - #False
-print(bool(True)) - #True
-print(bool('')) - #False
+print(bool(0))  #False 
+print(bool(0.0))  #False
+print(bool(None))  #False
+print(bool(False))  #False
+print(bool(True))  #True
+print(bool(''))  #False
