@@ -9,4 +9,10 @@ if  not senha: # isso significa que a partir do momento que  'senha' voltar um v
     print('Senha incorreta')
 
 
-print(not False)
+print(not False) # true
+print(not True) # false
+print(not 0) # false
+print(not 1) # true
+print(not 'teste') # false
+print(not'') # false
+print(not None) # false # resumindo  o 'not' serve para inverter a expressão

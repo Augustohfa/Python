@@ -1,1 +1,0 @@
-print('Eu amo minha noiva!!!!')
