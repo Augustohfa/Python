@@ -26,5 +26,6 @@ print(
 print(
     variavel[-1:-10:-1]
 )
-# vai retornar a string ao contrário, só que precisa ser tudo invertido, os indices vão do -1 ao
+# vai retornar a string ao contrário, só que precisa ser tudo invertido, os
+# indices vão do -1 ao
 # primeiro indice da string ao contrario.
