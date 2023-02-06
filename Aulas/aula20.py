@@ -14,3 +14,5 @@ try:
     print(f'O dobro de {numero_float} é {numero_float * 2}')
 except:
     print('O que você digitou não é um número')
+
+# SEGUNDO STACK OVERFLOW NÃO É BOM UTILIZAR O EXCEPT DESTE JEITO
