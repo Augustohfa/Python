@@ -9,8 +9,6 @@ condicao = True
 while condicao:
     nome = input('Qual seu nome: ')
     print(f'Seu nome é {nome}')
-    break
-
     condicao = input('Deseja continuar? [S/N] ').upper()
     if condicao == 'N':
         break
