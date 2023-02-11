@@ -10,7 +10,8 @@ indice_contador = 0
 nova_string = ''
 
 while indice_contador < len(nome):
-    nova_string += nome[indice_contador] + '*'
+    letra = nome[indice_contador]
+    nova_string += f'_{letra}'
     indice_contador += 1
 
 print(nova_string)
