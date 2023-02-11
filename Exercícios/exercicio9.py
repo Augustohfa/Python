@@ -31,5 +31,5 @@ while True:
     if sair:
         break
 # o código ficou um pouco diferente do que o esperado pelo professor do curso
-# mas estava funcionando e retornando quando o usuário digitava algo que não 
+# mas estava funcionando e retornando quando o usuário digitava algo que não
 # era esperado
