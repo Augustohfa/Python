@@ -28,3 +28,6 @@ while True:
         break
 # For faz exatamente isso "por baixo dos panos"
 ########################################################################
+for letra in texto:
+    print(letra)
+# Exatamente isso
