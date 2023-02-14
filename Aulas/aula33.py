@@ -10,3 +10,5 @@ for i in range(10):
 
 else:
     print('For completo com sucesso')
+
+augusto = 'augusto'
