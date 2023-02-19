@@ -4,7 +4,6 @@ Double-precision floating point format
 
 """
 import decimal
-import os
 
 numero_1 = decimal.Decimal('0.1')
 numero_2 = decimal.Decimal('0.7')
