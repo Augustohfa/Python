@@ -38,9 +38,9 @@ while True:
             print('Digite um número válido')
         for indice, produto in enumerate(lista_de_compras):
             if indice + 1 == item_remover:
-                lista_de_compras.remove(produto)
-                break
-
+                lista_de_compras.remove(produto) # apos terminar o código
+                break                            # percebi que aqui poderia ter usado o comando rem lista_de_compras(produto)
+                                                 # mas no fim fica o mesmo resultado, só considero mas clean esse que citei
     elif escolha_usuario.upper() == 'S':
         print('Voce saiu do programa!')
         break
