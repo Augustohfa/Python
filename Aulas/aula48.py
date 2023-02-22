@@ -20,13 +20,13 @@ def tirar_tracos_cpf(cpf):
             cpf_usuario_so_nmr += letra
     return cpf_usuario_so_nmr
 
-# checa se o tamanho do cpf é 9
+# checa se o tamanho do cpf é 11
 
 
 cpf_sem_traços = tirar_tracos_cpf(cpf_usuario)
 
 while True:
-    if cpf_sem_traços != 11:
+    if len(cpf_sem_traços) != 11:
         cpf_usuario = input('Digite um CPF válido: ')
         tirar_tracos_cpf(cpf_usuario)
         continue
