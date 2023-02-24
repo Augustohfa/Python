@@ -1,6 +1,12 @@
+import sys
 cpf_usuario = input('Digite seu cpf: ')
 cpf_usuario_so_nmr = ''
 # remove os caracteres não números do cpf
+
+primero_caractere = cpf_usuario[0]
+cpf_e_sequencia = cpf_usuario == primero_caractere * len(cpf_usuario)
+if cpf_e_sequencia:
+    sys.exit()  # checa se todos os numeros são iguais
 
 
 def tirar_tracos_cpf(cpf):
