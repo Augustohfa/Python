@@ -3,3 +3,6 @@ AulasModulo2/__pycache__/
 AulasModulo2/pacote_aula/__pycache__/modulo.cpython-311.pyc
 AulasModulo2/pacote_aula/__pycache__/modulo_oi.cpython-311.pyc
 AulasModulo2/pacote_aula/__pycache__/__init__.cpython-311.pyc
+ExerciciosModulo2/data_package/__pycache__/__init__.cpython-311.pyc
+.gitignore
+ExerciciosModulo2/data_package/__pycache__/products_module.cpython-311.pyc
