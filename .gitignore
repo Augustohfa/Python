@@ -6,3 +6,5 @@ AulasModulo2/pacote_aula/__pycache__/__init__.cpython-311.pyc
 ExerciciosModulo2/data_package/__pycache__/__init__.cpython-311.pyc
 .gitignore
 ExerciciosModulo2/data_package/__pycache__/products_module.cpython-311.pyc
+.vscode/settings.json
+.gitignore
