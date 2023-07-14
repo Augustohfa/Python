@@ -17,7 +17,7 @@ unified_list = []
 def zipper(list1, list2):
     min_length = min(len(list1), len(list2))
     for i in range(min_length):
-        unified_list.append(list1[i] + '-' + list2[i])
+        unified_list.append(f'{list1[i]} - {list2[i]}')
         # Pode-se ser feito com list comprehension - porém odeio
     return unified_list
 
