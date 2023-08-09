@@ -4,14 +4,18 @@
   "enderecos": [
     {
       "rua": "Rua Sei la das quantas",
-      "numero": 38
+      "número": 38
     },
     {
       "rua": "Rua dois sei la o que",
-      "numero": 48
+      "número": 48
     }
   ],
-  "altura": 1.89,
+  "favorite_colors": [
+    "Purple",
+    "Black"
+  ],
+  "heigh": 1.89,
   "dev": true,
-  "diabetico": true
+  "diabetic": true
 }
