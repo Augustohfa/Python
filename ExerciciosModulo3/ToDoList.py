@@ -12,6 +12,7 @@ def add_task(task):
         tasks_to_print[0].append(f'Task Nº {items_count} -> {task}')
 
         only_tasks[0].append(task)
+    list_tasks(tasks_to_print)
 
 
 def task_done(tasks, tasks_to_print, done_task):
@@ -31,6 +32,7 @@ def task_done(tasks, tasks_to_print, done_task):
             'The task you are trying to do is already done '
             'or were not added at all!'
         )
+    list_tasks(tasks_to_print)
 
 
 def undo_task(tasks, tasks_to_print, undone_task):
@@ -52,6 +54,7 @@ def undo_task(tasks, tasks_to_print, undone_task):
             'The task you are trying to do is already undone '
             'or were not added at all!'
         )
+    list_tasks(tasks_to_print)
 
 
 def list_tasks(tasks):
@@ -88,24 +91,38 @@ while True:
     )
     user_input = input('Type the task or the commands: ')
 
-    if user_input == 'done':
-        task_done(only_tasks, tasks_to_print, 'teste')
-        list_tasks(tasks_to_print)
-        continue
+    commands = {
+        'done': lambda: task_done(only_tasks, tasks_to_print, 'teste'),
+        'list': lambda: list_tasks(tasks_to_print),
+        'undone': lambda: undo_task(only_tasks, tasks_to_print, 'teste'),
+        'clear': lambda: os.system('clear'),
+        'add': lambda: add_task(user_input)
+    }
 
-    elif user_input == 'list':
-        list_tasks(tasks_to_print)
-        continue
+    command_func = commands.get(user_input) if commands.get(user_input) \
+        is not None else commands['add']
+    command_func()
+# while True:
 
-    elif user_input == 'clear':
-        os.system('clear')
-        break
-
-    elif user_input == 'undone':
-        undo_task(only_tasks, tasks_to_print, 'teste')
-        list_tasks(tasks_to_print)
-        continue
-
-    else:
-        add_task(user_input)
-        list_tasks(tasks_to_print)
+#
+#     if user_input == 'done':
+#         task_done(only_tasks, tasks_to_print, 'teste')
+#         list_tasks(tasks_to_print)
+#         continue
+#
+#     elif user_input == 'list':
+#         list_tasks(tasks_to_print)
+#         continue
+#
+#     elif user_input == 'clear':
+#         os.system('clear')
+#         break
+#
+#     elif user_input == 'undone':
+#         undo_task(only_tasks, tasks_to_print, 'teste')
+#         list_tasks(tasks_to_print)
+#         continue
+#
+#     else:
+#         add_task(user_input)
+#         list_tasks(tasks_to_print)
