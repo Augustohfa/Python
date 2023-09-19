@@ -1,0 +1,9 @@
+{
+  "turned_on": true,
+  "name": "MacBook Pro",
+  "year": 2016,
+  "touchbar": true,
+  "processor": "i7",
+  "ram": 16,
+  "screesize": 15
+}
