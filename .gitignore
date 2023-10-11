@@ -1552,3 +1552,6 @@ AulasModulo3/Regulars Expressions/RegularsExpression2.py
 AulasModulo3/Regulars Expressions/RegularsExpressions.py
 .vscode/settings.json
 ambiente_virtual/pyvenv.cfg
+AulasModulo4/ClassMethods.py
+.idea/Python.iml
+.idea/discord.xml
