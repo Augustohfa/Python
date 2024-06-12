@@ -9,16 +9,19 @@
 # É isso aqui que o Python faz por trás
 
 class Car:
-    def __init__(self, name):
+    def __init__(self, name, motor):
         self.name = name
+        self.motor = motor
+
     def acelerar(self):
         print(f'{self.name} está acelerando!')
+        print(f'{self.motor} está acelerando!')
 
 
 # Car.acelerar() não funciona pois vc está
 # chamando o molde e não o objeto já criado
 
-mustang = Car('Mustang')
+mustang = Car('Mustang', 'coyote')
 
 Car.acelerar(mustang)  # Isso aqui é o que acontece
 #                       Quando é passado o self no
